@@ -44,6 +44,10 @@
     font-size: 0.7rem;
   }
 
+  .navbar img {
+    height: 30px;
+  }
+
   .navbar > aside > img {
     width: 2rem;
     padding: 0 0.7rem 0 0;
