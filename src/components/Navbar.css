@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  left: 0;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+  z-index: 10;
+}
+
+.navbar img {
+  height: 45px;
+}
+
+.navbar h1 {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.navbar > aside {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar > aside > a {
+  text-decoration: none;
+  color: white;
+  padding: 0 1em;
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    margin: 0.3vh 0;
+  }
+
+  .navbar h1 {
+    font-size: 0.9rem;
+  }
+
+  .navbar > aside {
+    font-size: 0.7rem;
+  }
+
+  .navbar > aside > img {
+    width: 2rem;
+    padding: 0 0.7rem 0 0;
+  }
+}

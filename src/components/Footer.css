@@ -1,0 +1,40 @@
+.footer {
+  background-color: #202027;
+  display: flex;
+  justify-content: space-around;
+  height: 7vh;
+  align-items: center;
+  font-weight: bold;
+  font-size: 13px;
+  position: inherit;
+  bottom: 0;
+  left: 0;
+  letter-spacing: 1px;
+}
+
+.footer img {
+  height: 1.5vh;
+}
+
+.icons-icons-left {
+  align-items: center;
+}
+
+.icons-left > a,
+.social-media-icon > a {
+  padding: 0 15px 0 0;
+}
+
+.icons-right {
+  display: flex;
+}
+
+.social-media-icon img {
+  padding: 0 8px;
+}
+
+.social-media-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
