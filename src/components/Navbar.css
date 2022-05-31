@@ -34,6 +34,12 @@
 @media (max-width: 700px) {
   .navbar {
     margin: 0.3vh 0;
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    position: -webkit-sticky;
+    height: 15vh;
   }
 
   .navbar h1 {

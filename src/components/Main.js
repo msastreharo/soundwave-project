@@ -3,6 +3,7 @@ import "./Main.css";
 import coverimg from "../images/landing-page-girl.png";
 
 const Main = () => {
+  
   return (
     <div className="main" id="main">
       <img src={coverimg} className="coverimg" />

@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="icons-left">
-        <a href="#">About us</a>
+        <a href="#">About Us</a>
         <a href="#">Contact</a>
       </div>
 

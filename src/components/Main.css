@@ -64,6 +64,10 @@ button:focus {
 }
 
 @media (max-width: 800px) {
+  .main {
+    overflow: clip;
+  }
+
   .main > img {
     display: none;
   }
